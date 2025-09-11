@@ -1,0 +1,220 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  TFCore (twilightforest-1.12.2-3.13b.jar)
+  OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  Quark Plugin (Quark-r1.6-179.jar)
+  ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  LucraftCoreCoreMod (LucraftCore-1.12.2-2.4.17.jar)
+  CQRPlugin (Chocolate_Quest_Repoured-1.12.2-2.7.1B.jar)
+  LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  Campfire Plugin (Campfire-v1.1.6-mc1.12.2.jar)
+  ReachFixPlugin (ReachFix-1.12.2-1.1.3.jar)
+  ShutdownPatcher (mcef-1.12.2-1.11-coremod.jar)
+  pymtech (PymTech-1.12.2-1.0.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Who set us up the TNT?
+
+Time: 9/8/25 1:33 AM
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: net/minecraft/client/gui/GuiScreen
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at net.minecraftforge.fml.common.FMLModContainer.gatherAnnotations(FMLModContainer.java:400)
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:595)
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.gui.GuiScreen
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 35 more
+Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@30feffc from coremod FMLCorePlugin
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:260)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 37 more
+Caused by: java.lang.RuntimeException: Attempted to load class blk for invalid side SERVER
+	at net.minecraftforge.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:62)
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:256)
+	... 39 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.8.0-1030-azure
+	Java Version: 1.8.0_462, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 2065771696 bytes (1970 MB) / 3006791680 bytes (2867 MB) up to 13362528256 bytes (12743 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx14G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 92 mods loaded, 92 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                            | Version                  | Source                                             | Signature                                |
+	|:----- |:----------------------------- |:------------------------ |:-------------------------------------------------- |:---------------------------------------- |
+	| LC    | minecraft                     | 1.12.2                   | minecraft.jar                                      | None                                     |
+	| LC    | mcp                           | 9.42                     | minecraft.jar                                      | None                                     |
+	| LC    | FML                           | 8.0.99.99                | forge-1.12.2-14.23.5.2860.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LC    | forge                         | 14.23.5.2860             | forge-1.12.2-14.23.5.2860.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LC    | openmodscore                  | 0.12.2                   | minecraft.jar                                      | None                                     |
+	| LC    | obfuscate                     | 0.4.2                    | minecraft.jar                                      | None                                     |
+	| LC    | jei                           | 4.16.1.1013              | jei_1.12.2-4.16.1.1013.jar                         | None                                     |
+	| LC    | abyssalcraft                  | 1.11.2                   | AbyssalCraft-1.12.2-1.11.2.jar                     | 220f10d3a93b3ff5fbaa7434cc629d863d6751b9 |
+	| LC    | aquaculture                   | 1.6.8                    | Aquaculture-1.12.2-1.6.8.jar                       | None                                     |
+	| LC    | baubles                       | 1.5.2                    | Baubles-1.12-1.5.2.jar                             | None                                     |
+	| LC    | artifacts                     | 1.12.2-1.2.4             | artifacts-1.12.2-1.2.4.jar                         | None                                     |
+	| LC    | quark                         | r1.6-179                 | Quark-r1.6-179.jar                                 | None                                     |
+	| LC    | autoreglib                    | 1.3-32                   | AutoRegLib-1.3-32.jar                              | None                                     |
+	| LC    | baddragonmod                  | 1.12.2                   | Bad Dragon Mod.jar                                 | None                                     |
+	| LC    | bard_mania                    | 0.15.0-alpha             | bard-mania_1.12.2-0.15.0-alpha.jar                 | 999640c365a8443393a1a21df2c0ede9488400e9 |
+	| LC    | bibliocraft                   | 2.4.6                    | BiblioCraft[v2.4.6][MC1.12.2].jar                  | None                                     |
+	| LC    | blacksoulsmod                 | 1.0.0                    | BlackSoulsMod-1.12.2-alph-0.1.jar                  | None                                     |
+	| LC    | cyclicmagic                   | 1.20.12                  | Cyclic-1.12.2-1.20.14.jar                          | 0e5cb559be7d03f3fc18b8cba547d663e25f28af |
+	| LC    | guideapi                      | 1.12-2.1.8-63            | Guide-API-1.12-2.1.8-63.jar                        | None                                     |
+	| LC    | bloodmagic                    | 1.12.2-2.4.3-105         | BloodMagic-1.12.2-2.4.3-105.jar                    | None                                     |
+	| LC    | bloodmoon                     | 1.5.3                    | Bloodmoon-MC1.12.2-1.5.3.jar                       | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LC    | botania                       | r1.10-364                | Botania r1.10-364.4.jar                            | None                                     |
+	| LC    | bullseye                      | 3.0.3                    | Bullseye-Mod-1.12.2.jar                            | None                                     |
+	| LC    | campfire                      | 1.1.6                    | Campfire-v1.1.6-mc1.12.2.jar                       | None                                     |
+	| LC    | cannibalism                   | 5.6.10                   | Cannibalism-5.6.10-1.12.2.jar                      | None                                     |
+	| LC    | mysticalworld                 | 1.12.2-1.11.0            | mysticalworld-1.12.2-1.11.0.jar                    | None                                     |
+	| LC    | chisel                        | MC1.12.2-1.0.2.45        | Chisel-MC1.12.2-1.0.2.45.jar                       | None                                     |
+	| LC    | cqrepoured                    | 2.7.1B                   | Chocolate_Quest_Repoured-1.12.2-2.7.1B.jar         | None                                     |
+	| LC    | clothingmodbetav04bytitoo8899 | v.0.4                    | Clothing Mod Beta v.0.4 by Titoo8899.jar           | None                                     |
+	| LC    | collective                    | 3.0                      | collective-1.12.2-3.0.jar                          | None                                     |
+	| LC    | combatrefined                 | 1.4.1                    | combatrefined-1.4.2.jar                            | None                                     |
+	| LC    | endreborn                     | 0.3.8                    | EndReborn [0.3.9].jar                              | None                                     |
+	| LC    | sexmod                        | 1.1.0                    | Fapcraft 1.12.2 v1.1.jar                           | None                                     |
+	| LC    | geckolib3                     | 3.0.30                   | Fapcraft 1.12.2 v1.1.jar                           | None                                     |
+	| LC    | grimoireofgaia                | 1.7.2                    | GrimoireOfGaia3-1.12.2-1.7.2.jar                   | None                                     |
+	| LC    | huntersdream                  | 1.1.3                    | huntersdream-1.1.3.jar                             | None                                     |
+	| L     | invmove                       | 0.4.6                    | InvMove-1.12.2-0.4.6.jar                           | None                                     |
+	| L     | journeymap                    | 1.12.2-5.7.1p3           | journeymap-1.12.2-5.7.1p3.jar                      | None                                     |
+	| L     | letyourfriendeating           | 1.0.1-BETA               | LetYourFriendEating_1.0.1-BETA_1.12.2_Forge.jar    | None                                     |
+	| L     | lmmlcm                        | 1.0                      | LittleMaid-Loving-Crossover-Mod-[1.12.2]-1.2.2.jar | None                                     |
+	| L     | lovely_robot                  | 1.1.0                    | lovely_robot-1.12.2-1.1.0.jar                      | None                                     |
+	| L     | mantle                        | 1.12-1.3.3.55            | Mantle-1.12-1.3.3.55.jar                           | None                                     |
+	| L     | twilightforest                | 3.13b                    | twilightforest-1.12.2-3.13b.jar                    | None                                     |
+	| L     | tconstruct                    | 1.12.2-2.13.0.183        | TConstruct-1.12.2-2.13.0.183.jar                   | None                                     |
+	| L     | lucraftcore                   | 1.12.2-2.4.16            | LucraftCore-1.12.2-2.4.17.jar                      | None                                     |
+	| L     | magicclover                   | 1.12-0.7.8               | Magic-Clover-Mod-1.12.2.jar                        | None                                     |
+	| L     | magicmirror                   | 1.0                      | magicmirror 1.1 [1.12].jar                         | None                                     |
+	| L     | mcef                          | 1.11                     | mcef-1.12.2-1.11.jar                               | None                                     |
+	| L     | mcpaint                       | 1.2.4                    | mcpaint-1.2.4.jar                                  | None                                     |
+	| L     | mikedongles                   | 0.5.1                    | MikeDongles-Mod-1.12.2.jar                         | None                                     |
+	| L     | mist                          | alpha_b_04               | Misty-World-Mod-1.12.2.jar                         | None                                     |
+	| L     | testdummy                     | 2.0.5                    | MmmMmmMmmMmm-1.12-2.0.5.jar                        | None                                     |
+	| L     | moartinkers                   | 0.6.0                    | moartinkers-0.6.0.jar                              | None                                     |
+	| L     | natura                        | 1.12-4.3.0.17            | Natura-Mod-1.12.2.jar                              | None                                     |
+	| L     | naturallychargedcreepers      | 1.7                      | naturallychargedcreepers_1.12.2-1.7.jar            | None                                     |
+	| L     | naturescompass                | 1.8.5                    | NaturesCompass-1.12.2-1.8.5.jar                    | None                                     |
+	| L     | netherbackport                | 1.0.0                    | NetherUpdateBackport-1.12.2(1.0.1).jar             | None                                     |
+	| L     | openmods                      | 0.12.2                   | OpenModsLib-1.12.2-0.12.2.jar                      | None                                     |
+	| L     | openblocks                    | 1.8.1                    | OpenBlocks-1.12.2-1.8.1.jar                        | None                                     |
+	| L     | patchouli                     | 1.0-23.6                 | Patchouli-1.0-23.6.jar                             | None                                     |
+	| L     | pickpocketer                  | 0.1                      | pickpocketer-1.12.2-2.2.jar                        | None                                     |
+	| L     | pirate_weapons                | 1.0.0                    | pirate weapons beta 0.1.jar                        | None                                     |
+	| L     | immersiveengineering          | 0.12-98                  | ImmersiveEngineering-0.12-98.jar                   | None                                     |
+	| L     | portabledrill                 | 1.2.1                    | portabledrill-1.2.1.jar                            | None                                     |
+	| L     | pvj                           | 1.6.4                    | ProjectVibrantJourneys-1.12.2-1.6.4.jar            | None                                     |
+	| L     | pymtech                       | 1.12.2-1.0.2             | PymTech-1.12.2-1.0.2.jar                           | None                                     |
+	| L     | quarkoddities                 | 1                        | QuarkOddities-1.12.2.jar                           | None                                     |
+	| L     | reachfix                      | 1.1.3                    | ReachFix-1.12.2-1.1.3.jar                          | None                                     |
+	| L     | xreliquary                    | 1.12.2-1.3.4.796         | Reliquary-1.12.2-1.3.4.796.jar                     | None                                     |
+	| L     | rbb                           | 1.0.0                    | RocketBoot1.12.2.jar                               | None                                     |
+	| L     | rustic                        | 1.1.7                    | rustic-1.1.7.jar                                   | None                                     |
+	| L     | sandyores                     | 1.4.0                    | SandyOres 1.12.2 1.4.jar                           | None                                     |
+	| L     | sit                           | v1.3                     | sit-1.12.2-v1.3.jar                                | None                                     |
+	| L     | skeletonhorsespawn            | 1.9                      | skeletonhorsespawn_1.12.2-1.9.jar                  | None                                     |
+	| L     | smithery                      | 1.0.0                    | smithery-ver-3.jar                                 | None                                     |
+	| L     | splatcraft                    | 2.2.2                    | Splatcraft-2.2.2.jar                               | None                                     |
+	| L     | sm                            | 1.1                      | Sunglasses and more 1.1.jar                        | None                                     |
+	| L     | taiga                         | 1.12.2-1.3.3             | taiga-1.12.2-1.3.4.jar                             | None                                     |
+	| L     | termat                        | beta                     | termat-1.0.5Release-1.12.2.jar                     | None                                     |
+	| L     | terrarian_arsenal             | 1.0.0                    | Terrarian_arsenal_1.12.2.jar                       | None                                     |
+	| L     | tinkersaddons                 | 1.0.7                    | Tinkers' Addons-1.12.1-1.0.7.jar                   | None                                     |
+	| L     | tcomplement                   | 1.12.2-0.4.3             | TinkersComplement-1.12.2-0.4.3.jar                 | None                                     |
+	| L     | tinkersjei                    | 1.2                      | tinkersjei-1.2.jar                                 | None                                     |
+	| L     | tinkertoolleveling            | 1.12.2-1.1.0.DEV.b23e769 | TinkerToolLeveling-1.12.2-1.1.0.jar                | None                                     |
+	| L     | travelersbackpack             | 1.0.35                   | TravelersBackpack-1.12.2-1.0.35.jar                | None                                     |
+	| L     | weaponmod                     | 1.24.2                   | weaponmod-forge-1.12.2-1.24.2.jar                  | None                                     |
+	| L     | llibrary                      | 1.7.20                   | llibrary-1.7.20-1.12.2.jar                         | None                                     |
+	| L     | wearables                     | 1.1.3                    | wearables-1.1.3.jar                                | None                                     |
+	| L     | webdisplays                   | 1.1                      | webdisplays-1.12.2-1.1.jar                         | None                                     |
+	| L     | recipehandler                 | 0.14                     | YARCF-0.14(1.12.2).jar                             | None                                     |
+	| L     | zombiehorsespawn              | 3.0                      | zombiehorsespawn_1.12.2-3.0.jar                    | None                                     |
+	| L     | mysticallib                   | 1.12.2-1.13.0            | mysticallib-1.12.2-1.13.0.jar                      | None                                     |
+
+	Loaded coremods (and transformers): 
+IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+TFCore (twilightforest-1.12.2-3.13b.jar)
+  
+OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  openmods.core.OpenModsClassTransformer
+Quark Plugin (Quark-r1.6-179.jar)
+  vazkii.quark.base.asm.ClassTransformer
+ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+LucraftCoreCoreMod (LucraftCore-1.12.2-2.4.17.jar)
+  lucraft.mods.lucraftcore.core.LCTransformer
+CQRPlugin (Chocolate_Quest_Repoured-1.12.2-2.7.1B.jar)
+  team.cqr.cqrepoured.asm.CQRClassTransformer
+LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  lumien.bloodmoon.asm.ClassTransformer
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+Campfire Plugin (Campfire-v1.1.6-mc1.12.2.jar)
+  git.jbredwards.campfire.asm.ASMHandler$Transformer
+ReachFixPlugin (ReachFix-1.12.2-1.1.3.jar)
+  meldexun.reachfix.asm.ReachFixClassTransformer
+ShutdownPatcher (mcef-1.12.2-1.11-coremod.jar)
+  net.montoyo.mcef.coremod.ShutdownPatcher
+pymtech (PymTech-1.12.2-1.0.2.jar)
+  lucraft.mods.pymtech.core.PymTechClassTransformer
+	OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:ENABLED],[player_render_hook:ENABLED],[horse_null_fix:FINISHED]
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
