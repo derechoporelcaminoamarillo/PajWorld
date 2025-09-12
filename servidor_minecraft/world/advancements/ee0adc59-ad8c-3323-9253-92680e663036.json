@@ -1,0 +1,32 @@
+{
+  "fossil:fossil/root": {
+    "criteria": {
+      "tick": "2025-09-11 02:23:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-09-11 02:44:20 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/tconstruct": {
+    "criteria": {
+      "book": "2025-09-11 02:23:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "river": "2025-09-11 02:23:48 +0000"
+    },
+    "done": false
+  },
+  "cqrepoured:cqr/root": {
+    "criteria": {
+      "tick": "2025-09-11 02:23:48 +0000"
+    },
+    "done": true
+  }
+}

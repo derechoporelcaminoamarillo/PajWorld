@@ -1,0 +1,202 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  ReachFixPlugin (ReachFix-1.12.2-1.1.3.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  TFCore (twilightforest-1.12.2-3.13b.jar)
+  OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  pymtech (PymTech-1.12.2-1.0.2.jar)
+  ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  LucraftCoreCoreMod (LucraftCore-1.12.2-2.4.17.jar)
+  CQRPlugin (Chocolate_Quest_Repoured-1.12.2-2.7.1B.jar)
+Contact their authors BEFORE contacting forge
+
+// Sorry :(
+
+Time: 9/11/25 2:25 AM
+Description: Exception ticking world
+
+java.lang.NoClassDefFoundError: net/mcreator/blacksoulsmod/entity/EntityElma$ModelZombie
+	at java.lang.Class.getDeclaringClass0(Native Method)
+	at java.lang.Class.getDeclaringClass(Class.java:1235)
+	at java.lang.Class.getEnclosingClass(Class.java:1277)
+	at java.lang.Class.getSimpleBinaryName(Class.java:1443)
+	at java.lang.Class.getSimpleName(Class.java:1309)
+	at fossilsarcheology.server.event.FossilLivingEvent.isLivestock(FossilLivingEvent.java:98)
+	at fossilsarcheology.server.event.FossilLivingEvent.onEntityJoinWorld(FossilLivingEvent.java:89)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_595_FossilLivingEvent_onEntityJoinWorld_EntityJoinWorldEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraft.world.World.func_72838_d(World.java:1209)
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058)
+	at net.minecraft.world.WorldEntitySpawner.func_77192_a(WorldEntitySpawner.java:160)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:203)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:756)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ClassNotFoundException: net.mcreator.blacksoulsmod.entity.EntityElma$ModelZombie
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 19 more
+Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@4fcc529 from coremod FMLCorePlugin
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:260)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 21 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/mcreator/blacksoulsmod/entity/EntityElma$ModelZombie for invalid side SERVER
+	at net.minecraftforge.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:62)
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:256)
+	... 23 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.lang.Class.getDeclaringClass0(Native Method)
+	at java.lang.Class.getDeclaringClass(Class.java:1235)
+	at java.lang.Class.getEnclosingClass(Class.java:1277)
+	at java.lang.Class.getSimpleBinaryName(Class.java:1443)
+	at java.lang.Class.getSimpleName(Class.java:1309)
+	at fossilsarcheology.server.event.FossilLivingEvent.isLivestock(FossilLivingEvent.java:98)
+	at fossilsarcheology.server.event.FossilLivingEvent.onEntityJoinWorld(FossilLivingEvent.java:89)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_595_FossilLivingEvent_onEntityJoinWorld_EntityJoinWorldEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraft.world.World.func_72838_d(World.java:1209)
+	at net.minecraft.world.WorldServer.func_72838_d(WorldServer.java:1058)
+	at net.minecraft.world.WorldEntitySpawner.func_77192_a(WorldEntitySpawner.java:160)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:203)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 1 total; [EntityPlayerMP['Ale'/1525, l='world', x=-157.00, y=64.00, z=-88.00]]
+	Chunk stats: ServerChunkCache: 441 Drop: 0
+	Level seed: 8650025470836672635
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-156,64,-92), Chunk: (at 4,4,4 in -10,-6; contains blocks -160,0,-96 to -145,255,-81), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 100270 game time, 100270 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 9471 (now: false), thunder time: 57176 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:756)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:750)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.8.0-1030-azure
+	Java Version: 1.8.0_462, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 5452841256 bytes (5200 MB) / 6832521216 bytes (6516 MB) up to 13362528256 bytes (12743 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx14G
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 49 mods loaded, 49 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                   | Version           | Source                                                     | Signature                                |
+	|:------ |:-------------------- |:----------------- |:---------------------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft            | 1.12.2            | minecraft.jar                                              | None                                     |
+	| LCHIJA | mcp                  | 9.42              | minecraft.jar                                              | None                                     |
+	| LCHIJA | FML                  | 8.0.99.99         | forge-1.12.2-14.23.5.2860.jar                              | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | forge                | 14.23.5.2860      | forge-1.12.2-14.23.5.2860.jar                              | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJA | openmodscore         | 0.12.2            | minecraft.jar                                              | None                                     |
+	| LCHIJA | obfuscate            | 0.4.2             | minecraft.jar                                              | None                                     |
+	| LCHIJA | aquaculture          | 1.6.8             | Aquaculture-1.12.2-1.6.8.jar                               | None                                     |
+	| LCHIJA | baubles              | 1.5.2             | Baubles-1.12-1.5.2.jar                                     | None                                     |
+	| LCHIJA | artifacts            | 1.12.2-1.2.4      | artifacts-1.12.2-1.2.4.jar                                 | None                                     |
+	| LCHIJA | baddragonmod         | 1.12.2            | Bad Dragon Mod.jar                                         | None                                     |
+	| LCHIJA | bard_mania           | 0.15.0-alpha      | bard-mania_1.12.2-0.15.0-alpha.jar                         | 999640c365a8443393a1a21df2c0ede9488400e9 |
+	| LCHIJA | bibliocraft          | 2.4.6             | BiblioCraft[v2.4.6][MC1.12.2].jar                          | None                                     |
+	| LCHIJA | blacksoulsmod        | 1.0.0             | BlackSoulsMod-1.12.2-alph-0.1.jar                          | None                                     |
+	| LCHIJA | guideapi             | 1.12-2.1.8-63     | Guide-API-1.12-2.1.8-63.jar                                | None                                     |
+	| LCHIJA | bloodmagic           | 1.12.2-2.4.3-105  | BloodMagic-1.12.2-2.4.3-105.jar                            | None                                     |
+	| LCHIJA | botania              | r1.10-364         | Botania r1.10-364.4.jar                                    | None                                     |
+	| LCHIJA | cannibalism          | 5.6.10            | Cannibalism-5.6.10-1.12.2.jar                              | None                                     |
+	| LCHIJA | cqrepoured           | 2.7.1B            | Chocolate_Quest_Repoured-1.12.2-2.7.1B.jar                 | None                                     |
+	| LCHIJA | sexmod               | 1.1.0             | Fapcraft-Fazclaires-Nightclub-Edition-Mod-Forge-1.12.2.jar | None                                     |
+	| LCHIJA | fnafroblocks         | 2.5.3             | Fapcraft-Fazclaires-Nightclub-Edition-Mod-Forge-1.12.2.jar | None                                     |
+	| LCHIJA | llibrary             | 1.7.20            | llibrary-1.7.20-1.12.2.jar                                 | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LCHIJA | fossil               | 8.0.5             | fossilsarcheology-8.0.6.jar                                | None                                     |
+	| LCHIJA | geckolib3            | 3.0.30            | geckolib-forge-1.12.2-3.0.31.jar                           | None                                     |
+	| LCHIJA | grimoireofgaia       | 1.7.2             | GrimoireOfGaia3-1.12.2-1.7.2.jar                           | None                                     |
+	| LCHIJA | huntersdream         | 1.1.3             | huntersdream-1.1.3.jar                                     | None                                     |
+	| LCHIJA | knapm                | 1.3.0             | Kidnap-Mod-Forge-1.12.2.jar                                | None                                     |
+	| LCHIJA | letyourfriendeating  | 1.0.1-BETA        | LetYourFriendEating_1.0.1-BETA_1.12.2_Forge.jar            | None                                     |
+	| LCHIJA | lmmlcm               | 1.0               | LittleMaid-Loving-Crossover-Mod-[1.12.2]-1.2.2.jar         | None                                     |
+	| LCHIJA | lovely_robot         | 1.1.0             | lovely_robot-1.12.2-1.1.0.jar                              | None                                     |
+	| LCHIJA | mantle               | 1.12-1.3.3.55     | Mantle-1.12-1.3.3.55.jar                                   | None                                     |
+	| LCHIJA | twilightforest       | 3.13b             | twilightforest-1.12.2-3.13b.jar                            | None                                     |
+	| LCHIJA | tconstruct           | 1.12.2-2.13.0.183 | TConstruct-1.12.2-2.13.0.183.jar                           | None                                     |
+	| LCHIJA | lucraftcore          | 1.12.2-2.4.16     | LucraftCore-1.12.2-2.4.17.jar                              | None                                     |
+	| LCHIJA | magicclover          | 1.12-0.7.8        | Magic-Clover-Mod-1.12.2.jar                                | None                                     |
+	| LCHIJA | magicmirror          | 1.0               | magicmirror 1.1 [1.12].jar                                 | None                                     |
+	| LCHIJA | naturescompass       | 1.8.5             | NaturesCompass-1.12.2-1.8.5.jar                            | None                                     |
+	| LCHIJA | netherbackport       | 1.0.0             | NetherUpdateBackport-1.12.2(1.0.1).jar                     | None                                     |
+	| LCHIJA | openmods             | 0.12.2            | OpenModsLib-1.12.2-0.12.2.jar                              | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LCHIJA | openblocks           | 1.8.1             | OpenBlocks-1.12.2-1.8.1.jar                                | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LCHIJA | pymtech              | 1.12.2-1.0.2      | PymTech-1.12.2-1.0.2.jar                                   | None                                     |
+	| LCHIJA | reachfix             | 1.1.3             | ReachFix-1.12.2-1.1.3.jar                                  | None                                     |
+	| LCHIJA | rustic               | 1.1.7             | rustic-1.1.7.jar                                           | None                                     |
+	| LCHIJA | sit                  | v1.3              | sit-1.12.2-v1.3.jar                                        | None                                     |
+	| LCHIJA | splatcraft           | 2.2.2             | Splatcraft-2.2.2.jar                                       | None                                     |
+	| LCHIJA | taiga                | 1.12.2-1.3.3      | taiga-1.12.2-1.3.4.jar                                     | None                                     |
+	| LCHIJA | termat               | beta              | termat-1.0.5Release-1.12.2.jar                             | None                                     |
+	| LCHIJA | terrarian_arsenal    | 1.0.0             | Terrarian_arsenal_1.12.2.jar                               | None                                     |
+	| LCHIJA | travelersbackpack    | 1.0.35            | TravelersBackpack-1.12.2-1.0.35.jar                        | None                                     |
+	| LCHIJA | immersiveengineering | 0.12-98           | ImmersiveEngineering-0.12-98.jar                           | None                                     |
+
+	Loaded coremods (and transformers): 
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+ReachFixPlugin (ReachFix-1.12.2-1.1.3.jar)
+  meldexun.reachfix.asm.ReachFixClassTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+TFCore (twilightforest-1.12.2-3.13b.jar)
+  
+OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  openmods.core.OpenModsClassTransformer
+pymtech (PymTech-1.12.2-1.0.2.jar)
+  lucraft.mods.pymtech.core.PymTechClassTransformer
+ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+  com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+LucraftCoreCoreMod (LucraftCore-1.12.2-2.4.17.jar)
+  lucraft.mods.lucraftcore.core.LCTransformer
+CQRPlugin (Chocolate_Quest_Repoured-1.12.2-2.7.1B.jar)
+  team.cqr.cqrepoured.asm.CQRClassTransformer
+	OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:ENABLED],[player_render_hook:ENABLED],[horse_null_fix:FINISHED]
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 20; [EntityPlayerMP['Ale'/1525, l='world', x=-157.00, y=64.00, z=-88.00]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
