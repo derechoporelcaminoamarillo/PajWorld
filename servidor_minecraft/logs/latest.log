@@ -825,3 +825,5 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [04:48:27] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Snogs with UUID cb268eb5-48ef-46dd-af33-54ad429156a4 owned by null
 [04:48:27] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID 1224a8ee-75ca-48a5-b8fb-670be3ec688c owned by null
 [04:48:27] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Kugs with UUID d1148ce7-c88b-441a-bf53-8ce30458d45d owned by null
+[05:16:19] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Ale lost connection: Disconnected
+[05:16:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ale left the game
