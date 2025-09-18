@@ -37722,3 +37722,161 @@ com.google.gson.JsonSyntaxException: Invalid criterion trigger: minecraft:dontpu
 
 [00:02:44] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 115 times.
 
+[00:03:05] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:03:35] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 120 times.
+
+[00:03:35] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 120 times.
+
+[00:03:35] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 120 times.
+
+[00:03:35] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 120 times.
+
+[00:03:35] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 120 times.
+
+[00:03:41] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Sogi with UUID 76befb33-9665-4fa1-b887-fff74e77b3a3 owned by null
+[00:03:41] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID e8de4ca3-4a86-4dc6-a325-115a2673638e owned by null
+[00:03:41] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Ken with UUID 9978ba54-1b78-4007-8130-c32eda3fd8de owned by null
+[00:03:41] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Rokko with UUID dde38196-c731-474d-a4a5-0fae1b26bf67 owned by null
+[00:03:50] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:04:08] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Sogi with UUID 76befb33-9665-4fa1-b887-fff74e77b3a3 owned by null
+[00:04:08] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID e8de4ca3-4a86-4dc6-a325-115a2673638e owned by null
+[00:04:08] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Ken with UUID 9978ba54-1b78-4007-8130-c32eda3fd8de owned by null
+[00:04:08] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Rokko with UUID dde38196-c731-474d-a4a5-0fae1b26bf67 owned by null
+[00:04:24] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 125 times.
+
+[00:04:24] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 125 times.
+
+[00:04:24] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 125 times.
+
+[00:04:24] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 125 times.
+
+[00:04:24] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 125 times.
+
+[00:04:34] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Sogi with UUID 76befb33-9665-4fa1-b887-fff74e77b3a3 owned by null
+[00:04:34] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID e8de4ca3-4a86-4dc6-a325-115a2673638e owned by null
+[00:04:34] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Ken with UUID 9978ba54-1b78-4007-8130-c32eda3fd8de owned by null
+[00:04:34] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Rokko with UUID dde38196-c731-474d-a4a5-0fae1b26bf67 owned by null
+[00:04:35] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:05:14] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 130 times.
+
+[00:05:14] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 130 times.
+
+[00:05:14] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 130 times.
+
+[00:05:15] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 130 times.
+
+[00:05:15] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 130 times.
+
+[00:05:20] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:06:00] [Server thread/WARN] [FML]: Tinkers Alloying Addon loaded a new chunk [-4, -33] in dimension 0 (overworld) while populating chunk [-3, -33], causing cascading worldgen lag.
+[00:06:00] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:06:04] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 135 times.
+
+[00:06:04] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 135 times.
+
+[00:06:04] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 135 times.
+
+[00:06:04] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 135 times.
+
+[00:06:04] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 135 times.
+
+[00:06:05] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:06:50] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:06:54] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 140 times.
+
+[00:06:54] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 140 times.
+
+[00:06:54] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 140 times.
+
+[00:06:54] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 140 times.
+
+[00:06:54] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 140 times.
+
+[00:07:35] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:07:36] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Sogi with UUID 76befb33-9665-4fa1-b887-fff74e77b3a3 owned by null
+[00:07:36] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID e8de4ca3-4a86-4dc6-a325-115a2673638e owned by null
+[00:07:36] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Ken with UUID 9978ba54-1b78-4007-8130-c32eda3fd8de owned by null
+[00:07:36] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Rokko with UUID dde38196-c731-474d-a4a5-0fae1b26bf67 owned by null
+[00:07:44] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 145 times.
+
+[00:07:44] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 145 times.
+
+[00:07:44] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 145 times.
+
+[00:07:44] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 145 times.
+
+[00:07:44] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 145 times.
+
+[00:08:20] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:08:34] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 150 times.
+
+[00:08:34] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 150 times.
+
+[00:08:34] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 150 times.
+
+[00:08:34] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 150 times.
+
+[00:08:34] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 150 times.
+
+[00:09:05] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:09:24] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 155 times.
+
+[00:09:24] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 155 times.
+
+[00:09:24] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 155 times.
+
+[00:09:24] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 155 times.
+
+[00:09:24] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 155 times.
+
+[00:09:50] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:10:14] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 160 times.
+
+[00:10:14] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 160 times.
+
+[00:10:14] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 160 times.
+
+[00:10:14] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 160 times.
+
+[00:10:14] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 160 times.
+
+[00:10:35] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:11:05] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 165 times.
+
+[00:11:05] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 165 times.
+
+[00:11:05] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 165 times.
+
+[00:11:05] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 165 times.
+
+[00:11:05] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 165 times.
+
+[00:11:20] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:11:41] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Gukle with UUID e1c48560-536e-4fa0-af03-3c6d8d5b620b owned by null
+[00:11:41] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Snogs with UUID cb268eb5-48ef-46dd-af33-54ad429156a4 owned by null
+[00:11:41] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID 1224a8ee-75ca-48a5-b8fb-670be3ec688c owned by null
+[00:11:41] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Kugs with UUID d1148ce7-c88b-441a-bf53-8ce30458d45d owned by null
+[00:11:55] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 170 times.
+
+[00:11:55] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 170 times.
+
+[00:11:55] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 170 times.
+
+[00:11:55] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 170 times.
+
+[00:11:55] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 170 times.
+
+[00:12:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -131.5, 70.0, -101.5]
+[00:12:05] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:12:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Set own game mode to Spectator Mode]
+[00:12:45] [Server thread/DEBUG] [FML]: The world 4fbf3a48 (world) may have leaked: seen 175 times.
+
+[00:12:45] [Server thread/DEBUG] [FML]: The world 922ec07 (world) may have leaked: seen 175 times.
+
+[00:12:45] [Server thread/DEBUG] [FML]: The world 7a2bfdbd (world) may have leaked: seen 175 times.
+
+[00:12:45] [Server thread/DEBUG] [FML]: The world 5032eb49 (world) may have leaked: seen 175 times.
+
+[00:12:45] [Server thread/DEBUG] [FML]: The world 6f98c53b (world) may have leaked: seen 175 times.
+
+[00:12:50] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
