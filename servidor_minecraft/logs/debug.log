@@ -37523,3 +37523,151 @@ com.google.gson.JsonSyntaxException: Invalid criterion trigger: minecraft:dontpu
 [00:34:31] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 55 times.
 
 [00:34:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Given [Raw Fish] * 3 to Ale]
+[00:35:06] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:35:21] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 60 times.
+
+[00:35:21] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 60 times.
+
+[00:35:21] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 60 times.
+
+[00:35:21] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 60 times.
+
+[00:35:21] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 60 times.
+
+[00:35:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -197.86895624331564, 65.0, 101.29450267453973]
+[00:35:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -197.86895624331564, 64.0, 101.29450267453973]
+[00:35:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -197.86895624331564, 64.0, 102.29450267453973]
+[00:35:51] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:35:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -196.5075, 63.839375, 104.5]
+[00:36:06] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Ale moved wrongly!
+[00:36:11] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 65 times.
+
+[00:36:11] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 65 times.
+
+[00:36:11] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 65 times.
+
+[00:36:11] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 65 times.
+
+[00:36:11] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 65 times.
+
+[00:36:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:37:01] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 70 times.
+
+[00:37:01] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 70 times.
+
+[00:37:01] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 70 times.
+
+[00:37:01] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 70 times.
+
+[00:37:01] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 70 times.
+
+[00:37:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:37:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -196.47417936284975, 64.5625, 104.4955222583976]
+[00:37:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -195.47417936284975, 64.5625, 106.4955222583976]
+[00:37:51] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 75 times.
+
+[00:37:51] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 75 times.
+
+[00:37:51] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 75 times.
+
+[00:37:51] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 75 times.
+
+[00:37:51] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 75 times.
+
+[00:37:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -194.47417936284975, 64.5625, 105.4955222583976]
+[00:38:06] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:38:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -194.47417936284975, 64.5625, 104.4955222583976]
+[00:38:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -194.47417936284975, 64.5625, 103.4955222583976]
+[00:38:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -194.47417936284975, 64.5625, 102.4955222583976]
+[00:38:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -193.47417936284975, 64.5625, 102.4955222583976]
+[00:38:41] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 80 times.
+
+[00:38:41] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 80 times.
+
+[00:38:41] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 80 times.
+
+[00:38:41] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 80 times.
+
+[00:38:41] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 80 times.
+
+[00:38:51] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:39:31] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 85 times.
+
+[00:39:31] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 85 times.
+
+[00:39:31] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 85 times.
+
+[00:39:31] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 85 times.
+
+[00:39:31] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 85 times.
+
+[00:39:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:40:21] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 90 times.
+
+[00:40:21] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 90 times.
+
+[00:40:21] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 90 times.
+
+[00:40:21] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 90 times.
+
+[00:40:21] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 90 times.
+
+[00:40:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:41:06] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:41:11] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 95 times.
+
+[00:41:11] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 95 times.
+
+[00:41:11] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 95 times.
+
+[00:41:11] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 95 times.
+
+[00:41:11] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 95 times.
+
+[00:41:51] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:42:01] [Server thread/INFO] [STDOUT]: [com.trolmastercard.sexmod.a8$a:lambda$onMessage$0:-1]: teleporting player ee0adc59-ad8c-3323-9253-92680e663036 to (-149.9849799617489, 64.0, 151.42535496065517)
+[00:42:01] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 100 times.
+
+[00:42:01] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 100 times.
+
+[00:42:01] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 100 times.
+
+[00:42:01] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 100 times.
+
+[00:42:01] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 100 times.
+
+[00:42:36] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:42:51] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 105 times.
+
+[00:42:51] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 105 times.
+
+[00:42:51] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 105 times.
+
+[00:42:51] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 105 times.
+
+[00:42:51] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 105 times.
+
+[00:43:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:43:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ale has made the advancement [Diamonds!]
+[00:43:41] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 110 times.
+
+[00:43:41] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 110 times.
+
+[00:43:41] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 110 times.
+
+[00:43:41] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 110 times.
+
+[00:43:41] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 110 times.
+
+[00:44:06] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[00:44:31] [Server thread/DEBUG] [FML]: The world 37e8c454 (world) may have leaked: seen 115 times.
+
+[00:44:31] [Server thread/DEBUG] [FML]: The world 53785be7 (world) may have leaked: seen 115 times.
+
+[00:44:31] [Server thread/DEBUG] [FML]: The world 6876854a (world) may have leaked: seen 115 times.
+
+[00:44:31] [Server thread/DEBUG] [FML]: The world 6cac5a0b (world) may have leaked: seen 115 times.
+
+[00:44:31] [Server thread/DEBUG] [FML]: The world 253e86b3 (world) may have leaked: seen 115 times.
+
+[00:44:51] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
