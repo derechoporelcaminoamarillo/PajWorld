@@ -783,3 +783,14 @@ com.google.gson.JsonSyntaxException: Invalid criterion trigger: minecraft:dontpu
 [00:38:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -193.47417936284975, 64.5625, 102.4955222583976]
 [00:42:01] [Server thread/INFO] [STDOUT]: [com.trolmastercard.sexmod.a8$a:lambda$onMessage$0:-1]: teleporting player ee0adc59-ad8c-3323-9253-92680e663036 to (-149.9849799617489, 64.0, 151.42535496065517)
 [00:43:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ale has made the advancement [Diamonds!]
+[00:45:50] [Server thread/WARN] [FML]: Tinkers Alloying Addon loaded a new chunk [-9, 22] in dimension 0 (overworld) while populating chunk [-8, 22], causing cascading worldgen lag.
+[00:45:50] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[00:48:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Ale: Teleported Ale to -156.5, 64.0, -87.5]
+[00:51:58] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Gukle with UUID e1c48560-536e-4fa0-af03-3c6d8d5b620b owned by null
+[00:51:58] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Snogs with UUID cb268eb5-48ef-46dd-af33-54ad429156a4 owned by null
+[00:51:58] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID 1224a8ee-75ca-48a5-b8fb-670be3ec688c owned by null
+[00:51:58] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Kugs with UUID d1148ce7-c88b-441a-bf53-8ce30458d45d owned by null
+[00:54:45] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Gukle with UUID e1c48560-536e-4fa0-af03-3c6d8d5b620b owned by null
+[00:54:45] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Snogs with UUID cb268eb5-48ef-46dd-af33-54ad429156a4 owned by null
+[00:54:45] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID 1224a8ee-75ca-48a5-b8fb-670be3ec688c owned by null
+[00:54:45] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Kugs with UUID d1148ce7-c88b-441a-bf53-8ce30458d45d owned by null
