@@ -939,3 +939,15 @@ io.netty.handler.timeout.ReadTimeoutException: null
 [00:59:31] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Snogs with UUID cb268eb5-48ef-46dd-af33-54ad429156a4 owned by null
 [00:59:31] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID 1224a8ee-75ca-48a5-b8fb-670be3ec688c owned by null
 [00:59:31] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Kugs with UUID d1148ce7-c88b-441a-bf53-8ce30458d45d owned by null
+[01:07:52] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Gukle with UUID e1c48560-536e-4fa0-af03-3c6d8d5b620b owned by null
+[01:07:52] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Snogs with UUID cb268eb5-48ef-46dd-af33-54ad429156a4 owned by null
+[01:07:52] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Tigs with UUID 1224a8ee-75ca-48a5-b8fb-670be3ec688c owned by null
+[01:07:52] [Server thread/WARN] [sexmod]: Removed old entry of kobold called Kugs with UUID d1148ce7-c88b-441a-bf53-8ce30458d45d owned by null
+[01:09:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Ale has made the advancement [Isn't It Iron Pick]
+[01:12:30] [Server thread/WARN] [FML]: Fapcraft (Fazclaire's Nightclub Edition) loaded a new chunk [-2, -35] in dimension 0 (overworld) while populating chunk [-3, -35], causing cascading worldgen lag.
+[01:12:30] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:12:30] [Server thread/WARN] [FML]: Fapcraft (Fazclaire's Nightclub Edition) loaded a new chunk [-3, -34] in dimension 0 (overworld) while populating chunk [-3, -35], causing cascading worldgen lag.
+[01:12:30] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:12:30] [Server thread/WARN] [FML]: Fapcraft (Fazclaire's Nightclub Edition) loaded a new chunk [-2, -34] in dimension 0 (overworld) while populating chunk [-3, -35], causing cascading worldgen lag.
+[01:12:30] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[01:12:30] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.trolmastercard.sexmod.em from class com.trolmastercard.sexmod.ex
